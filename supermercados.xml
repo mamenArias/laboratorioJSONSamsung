@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercados>
+    <supermercado>
+        <nombre>Mercadona</nombre>
+        <direccion>Av. Santa Rosa de Lima, 20, Málaga</direccion>
+        <geolocalizacion>
+            <latitud>36.7201957</latitud>
+            <longitud>-4.4519643</longitud>
+        </geolocalizacion>
+        <productos>
+            <producto>
+                <nombre>Hamburguesa de pollo</nombre>
+                <oferta>false</oferta>
+                <precio>2.25</precio>
+                <unidadMedida>gramos</unidadMedida>
+                <unidades>2</unidades>
+                <adquirido>true</adquirido>
+            </producto>
+            <producto>
+                <nombre>Agua mineral</nombre>
+                <oferta>false</oferta>
+                <precio>1.32</precio>
+                <unidadMedida>litros</unidadMedida>
+                <unidades>6</unidades>
+                <adquirido>false</adquirido>
+            </producto>
+            <producto>
+                <nombre>Muslitos de cangrejo</nombre>
+                <oferta>true</oferta>
+                <periodoVigencia>2023/06/04 - 2023/06/14</periodoVigencia>
+                <precio>1.99</precio>
+                <unidadMedida>gramos</unidadMedida>
+                <unidades>1</unidades>
+                <adquirido>true</adquirido>
+            </producto>
+        </productos>
+    </supermercado>
+    <supermercado>
+        <nombre>Carrefour</nombre>
+        <direccion>Av. Carlos Haya, 60, Málaga</direccion>
+            <geolocalizacion>
+                <latitud>36.7221677</latitud>
+                <longitud>-4.4512682</longitud>
+            </geolocalizacion>
+        <productos>
+            <producto>
+                <nombre>Leche desnatada</nombre>
+                <oferta>true</oferta>
+                <periodoVigencia>2023/06/02 - 2023/06/22</periodoVigencia>
+                <precio>3.12</precio>
+                <unidadMedida>litros</unidadMedida>
+                <unidades>3</unidades>
+                <adquirido>true</adquirido>
+            </producto>
+            <producto>
+                <nombre>Queso en lonchas</nombre>
+                <oferta>false</oferta>
+                <precio>2.38</precio>
+                <unidadMedida>gramos</unidadMedida>
+                <unidades>1</unidades>
+                <adquirido>true</adquirido>
+            </producto>
+            <producto>
+                <nombre>Tortelinni carne</nombre>
+                <oferta>false</oferta>
+                <precio>1.24</precio>
+                <unidadMedida>gramos</unidadMedida>
+                <unidades>1</unidades>
+                <adquirido>false</adquirido>
+            </producto>
+        </productos>
+    </supermercado>
+</supermercados>

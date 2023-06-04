@@ -1,0 +1,74 @@
+{
+    "supermercados": [
+        {
+          "nombre": "Mercadona",
+          "direccion": "Av. Santa Rosa de Lima, 20, Málaga",
+          "geolocalizacion":{
+            "latitud": "36.7201957",
+            "longitud": "-4.4519643"
+          },
+          "productos":[
+            {
+                "nombre": "Hamburguesa de pollo",
+                "oferta": false,
+                "precio": 2.25,
+                "unidades": 2,
+                "unidadMedida": "gramos",
+                "adquirido": true
+            },
+            {
+                "nombre": "Agua mineral",
+                "oferta": false,
+                "precio": 1.32,
+                "unidades": 6,
+                "unidadMedida": "litros",
+                "adquirido": false
+            },
+            {
+                "nombre": "Muslitos de cangrejo",
+                "oferta": true,
+                "periodoVigencia": "2023/06/04 - 2023/06/14",
+                "precio": 1.99,
+                "unidades": 1,
+                "unidadMedida": "gramos",
+                "adquirido": true
+            }
+          ]
+        },
+        {
+            "nombre": "Carrefour",
+            "direccion": "Av. Carlos Haya, 60, Málaga",
+            "geolocalizacion":{
+              "latitud": "36.7221677",
+              "longitud": "-4.4512682"
+            },
+            "productos":[
+              {
+                  "nombre": "Leche desnatada",
+                  "oferta": true,
+                  "periodoVigencia": "2023/06/02 - 2023/06/22",
+                  "precio": 3.12,
+                  "unidades": 3,
+                  "unidadMedida": "litros",
+                  "adquirido": true
+              },
+              {
+                  "nombre": "Queso en lonchas",
+                  "oferta": false,
+                  "precio": 2.38,
+                  "unidades": 1,
+                  "unidadMedida": "gramos",
+                  "adquirido": true
+              },
+              {
+                  "nombre": "Tortelinni carne",
+                  "oferta": false,
+                  "precio": 1.24,
+                  "unidades": 1,
+                  "unidadMedida": "gramos",
+                  "adquirido": false
+              }
+            ]
+          }
+    ]
+}
